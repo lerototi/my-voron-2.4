@@ -1,0 +1,48 @@
+# ========================================
+# Voron 2.4 - Git Ignore
+# ========================================
+
+# Backups automáticos do printer.cfg
+printer-*.cfg
+
+# Backup do Moonraker
+.moonraker.conf.bkp
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
+*~
+
+# Backups temporários
+*.bak
+*.backup
+
+# Firmware compilado
+*.bin
+*.hex
+*.elf
+*.map
+
+# Runtime
+*.sock
+
+# Credenciais
+secrets.cfg
+secrets.yaml
+.env
+.env.*
+
+# Sistema
+.DS_Store
+Thumbs.db
+KAMP
+KAMP
